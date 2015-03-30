@@ -12,12 +12,16 @@
 >  本项目在Android系统上实现了**DES加密**通话功能，使用TCP传送数据。由于是为了学习DES加密，所以做的比较简单，语音通话的降噪和回音消除都没有实现。
 
 ## 源码结构
-ChuanYinServer/src                                    ---------------服务器
+ChuanYinServer/src                                    ---------------服务器  
+
 |- com/yichang/chuanyin/server                 服务器包
 
 -------------------
-Qianlichuanyin/src                                     -----------------------客户端
-|- com/yichang/qianlichuanyin/main         -客户端主类包
-|- com/yichang/qianlichuanyin/net            ----客户端网络包
-|- com/yichang/qianlichuanyin/view			---客户端界面包
+Qianlichuanyin/src                                     -----------------------客户端  
+|- com/yichang/qianlichuanyin/main         -客户端主类包  
+
+|- com/yichang/qianlichuanyin/net            ----客户端网络包  
+
+|- com/yichang/qianlichuanyin/view			---客户端界面包  
+
 
