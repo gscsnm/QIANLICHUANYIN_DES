@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/call_back_group"
+    android:gravity="bottom"
+    tools:context=".CallActivity" >
+
+    <LinearLayout
+        android:id="@+id/btn_call_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/promise_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/promise_call"
+            android:contentDescription="@+string/promise_call"
+            android:layout_margin="5dp"
+             />
+        
+        <ImageView
+            android:id="@+id/refuse_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/refuse_call" 
+            android:contentDescription="@+string/refuse_call"
+            android:layout_margin="5dp"
+            />
+        
+    </LinearLayout>
+
+</RelativeLayout>

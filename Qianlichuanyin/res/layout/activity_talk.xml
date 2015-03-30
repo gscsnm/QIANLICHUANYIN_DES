@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/call_back_group"
+    android:gravity="bottom"
+    tools:context=".TalkActivity" >
+
+    <LinearLayout
+        android:id="@+id/btn_call_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/stop_talk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@+string/stop_call"
+            android:scaleType="fitXY"
+            android:src="@drawable/stop_talk_image" />
+    </LinearLayout>
+
+</RelativeLayout>

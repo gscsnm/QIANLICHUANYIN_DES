@@ -1,0 +1,32 @@
+02-26 22:19:18.903: W/asset(21768): Copying FileAsset 0x5832b3f8 (zip:/data/app/com.yichang.qianlichuanyin.main-1.apk:/resources.arsc) to buffer size 9112 to make it aligned.
+02-26 22:19:18.943: V/test(21768): µÚÒ»¸öActivity
+02-26 22:19:18.983: V/test(21768): ip192.168.199.201
+02-26 22:19:18.983: W/dalvikvm(21768): Unable to resolve superclass of Lcom/yichang/qianlichuanyin/net/Client$1; (471)
+02-26 22:19:18.983: W/dalvikvm(21768): Link of class 'Lcom/yichang/qianlichuanyin/net/Client$1;' failed
+02-26 22:19:18.983: W/dalvikvm(21768): threadid=1: thread exiting with uncaught exception (group=0x4184c6d8)
+02-26 22:19:18.988: E/AndroidRuntime(21768): FATAL EXCEPTION: main
+02-26 22:19:18.988: E/AndroidRuntime(21768): java.lang.NoClassDefFoundError: com/google/gson/Gson
+02-26 22:19:18.988: E/AndroidRuntime(21768): 	at com.yichang.qianlichuanyin.net.Client.<init>(Client.java:37)
+02-26 22:19:18.988: E/AndroidRuntime(21768): 	at com.yichang.qianlichuanyin.main.FirstActivity.connectServer(FirstActivity.java:48)
+02-26 22:19:18.988: E/AndroidRuntime(21768): 	at com.yichang.qianlichuanyin.main.FirstActivity.initData(FirstActivity.java:43)
+02-26 22:19:18.988: E/AndroidRuntime(21768): 	at com.yichang.qianlichuanyin.main.FirstActivity.onCreate(FirstActivity.java:25)
+02-26 22:19:18.988: E/AndroidRuntime(21768): 	at android.app.Activity.performCreate(Activity.java)
+02-26 22:19:18.988: E/AndroidRuntime(21768): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java)
+02-26 22:19:18.988: E/AndroidRuntime(21768): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java)
+02-26 22:19:18.988: E/AndroidRuntime(21768): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java)
+02-26 22:19:18.988: E/AndroidRuntime(21768): 	at android.app.ActivityThread.access$600(ActivityThread.java)
+02-26 22:19:18.988: E/AndroidRuntime(21768): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java)
+02-26 22:19:18.988: E/AndroidRuntime(21768): 	at android.os.Handler.dispatchMessage(Handler.java)
+02-26 22:19:18.988: E/AndroidRuntime(21768): 	at android.os.Looper.loop(Looper.java)
+02-26 22:19:18.988: E/AndroidRuntime(21768): 	at android.app.ActivityThread.main(ActivityThread.java)
+02-26 22:19:18.988: E/AndroidRuntime(21768): 	at java.lang.reflect.Method.invokeNative(Native Method)
+02-26 22:19:18.988: E/AndroidRuntime(21768): 	at java.lang.reflect.Method.invoke(Method.java)
+02-26 22:19:18.988: E/AndroidRuntime(21768): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java)
+02-26 22:19:18.988: E/AndroidRuntime(21768): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+02-26 22:19:18.988: E/AndroidRuntime(21768): 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:126)
+02-26 22:19:18.988: E/AndroidRuntime(21768): 	at dalvik.system.NativeStart.main(Native Method)
+02-26 22:19:18.988: E/AndroidRuntime(21768): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.google.gson.Gson" on path: /data/app/com.yichang.qianlichuanyin.main-1.apk
+02-26 22:19:18.988: E/AndroidRuntime(21768): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java)
+02-26 22:19:18.988: E/AndroidRuntime(21768): 	at java.lang.ClassLoader.loadClass(ClassLoader.java)
+02-26 22:19:18.988: E/AndroidRuntime(21768): 	at java.lang.ClassLoader.loadClass(ClassLoader.java)
+02-26 22:19:18.988: E/AndroidRuntime(21768): 	... 19 more

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myself="http://schemas.android.com/apk/res/com.yichang.qianlichuanyin.main"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yangpizhi"
+    android:orientation="vertical"
+    tools:context=".UserInfoActivity" >
+
+    <TableLayout
+        android:id="@+id/table1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:padding="10dip" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/user_name_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dip"
+                android:text="@string/user_name_label"
+                android:textSize="25sp" 
+                android:textColor="@color/back"
+                >
+                
+            </TextView>
+
+            <TextView
+                android:id="@+id/user_name_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dip"
+                android:text=""
+                android:textSize="25sp" 
+                android:textColor="@color/back"
+                >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/user_level_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dip"
+                android:text="@string/user_level_label"
+                android:textSize="25sp" 
+                android:textColor="@color/back"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/user_level"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dip"
+                android:text="@string/user_level_nomoral"
+                android:textSize="25sp" 
+                android:textColor="@color/back"
+                >
+            </TextView>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/btnButtom"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <com.yichang.qianlichuanyin.view.ImageTextButton
+            android:id="@+id/image_text_btn_talk"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/normal"
+            android:clickable="true"
+            android:contentDescription="@string/talk"
+            android:focusable="true"
+            myself:src="@drawable/talk_small"
+            myself:text="@string/talk" />
+
+        <com.yichang.qianlichuanyin.view.ImageTextButton
+            android:id="@+id/image_text_btn_myselef"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/normal"
+            android:clickable="true"
+            android:contentDescription="@string/my"
+            android:focusable="true"
+            myself:src="@drawable/people_black"
+            myself:text="@string/my" />
+    </LinearLayout>
+
+</LinearLayout>
